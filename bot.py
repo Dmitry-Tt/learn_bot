@@ -8,7 +8,7 @@ logging.basicConfig(filename='bot.log', level=logging.INFO)
 PROXY = {'proxy_url': settings.PROXY_URL,
     'urllib3_proxy_kwargs': {'username': settings.PROXY_USERNAME, 'password': settings.PROXY_PASSWORD}}
 
-def greet_user(update, contex):
+def greet_user(update, context):
     print("Вызван /start")
     update.message.reply_text("Здравствуй пользователь")
 
@@ -30,4 +30,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
