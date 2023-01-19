@@ -7,13 +7,13 @@
 1. Клонируйте репозиторий с github
 2. Создайте виртуальное окружение
 3. Установите зависимости `pip install -r requirements.txt`
-4. Создайте файд `settings.py`
+4. Создайте файл `settings.py`
 5. Впишите в settings.py переменные:
 ```
-API_KEY = "API-ключ бота"
-PROXY_URL = "Адрес прокси"
-PROXY_USERNAME = "Логин прокси"
-PROXY_PASSWORD = "Пароль на прокси"
+API_KEY = "API-ключ бота" 
+PROXY_URL = "Адрес прокси" - при необходимости
+PROXY_USERNAME = "Логин прокси" - при необходимости
+PROXY_PASSWORD = "Пароль на прокси" - при необходимости
 USER_EMOJI = [':cat:', ':hamster:', ':frog:', ':panda_face:', 
             ':baby_chick:', ':rabbit:', ':koala:', ':sheep:']
 ```
